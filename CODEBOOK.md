@@ -8,6 +8,7 @@ Variable names are assigned based on feature names, with '()' removed. Some feat
 Creating the tidy data set is divided into 2 steps: melt the extracted data set, and calculate the average of each variable for each activity and each subject. The melting step is done through melt function, using activity and subject labels as id variables, and all the remaining variables as measured variables. In the rebuilding step, function dcast is used.
 
 List of variables
+
 Activity: the activity performed by the subject.
 	LAYING, SITTING, STANDING, WALKING, WALKING DOWNSTAIRS, WALKING UPSTAIRS.
 Subject: the label of the subject. 1 ... 30.
