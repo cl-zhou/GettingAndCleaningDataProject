@@ -7,18 +7,28 @@ This project reshapes the [Human Activity Recognition Using Smartphones Dataset]
 
 This repository includes 3 files:
 -'README.md': a general description of the data processing process.
+
 -'run_analysis.R': the script used to reshape the data.
+
 -'Codebook.md': a description of variables, data and transformations.
+
 
 The data should be downloaded and unzipped into the working directory, in folder './UCR HAR Dataset'.
 The files needed to load are:
 ./UCR HAR Dataset/train/x_train.txt: the training data set.
+
 ./UCR HAR Dataset/train/y_train.txt: activity labels for training data set.
+
 ./UCR HAR Dataset/test/x_test.txt: the testing data set.
+
 ./UCR HAR Dataset/test/y_test.txt: activity labels for testing data set.
+
 ./UCR HAR Dataset/train/subject_train.txt: the subject labels for training data set.
+
 ./UCR HAR Dataset/test/subject_test.txt: the subject labels for testing data set.
+
 ./UCR HAR Dataset/features.txt: the list of all features.
+
 ./UCR HAR Dataset/activity_labels.txt: the list of activities.
 
 First, the training and testing data set are concatenated together to create a full data set. The activity labels and subject labels are also concatenated.
